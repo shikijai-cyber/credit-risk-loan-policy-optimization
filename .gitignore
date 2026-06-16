@@ -1,0 +1,29 @@
+# Python / R / notebook artifacts
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.Rhistory
+.RData
+.Rproj.user/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Secrets and local config
+.env
+.env.*
+!.env.example
+*.key
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Generated outputs
+outputs/
+*.log
+# Large or private raw datasets can be added locally.
+data/raw/*.csv
+!data/raw/.gitkeep
